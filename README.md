@@ -49,7 +49,10 @@ Une fois que la fenêtre de commande affiche :
 
 ## Structure du projet
 
-**imports/ui/pages** Page du site web
-**imports/ui/components** Templates
-**imports/api/notes** Gestion de la collection des notes
-**imports/startup/client/routes.js** Gestion des routes
+-**imports/ui/pages** Page du site web
+
+-**imports/ui/components** Templates
+
+-**imports/api/notes** Gestion de la collection des notes
+
+-**imports/startup/client/routes.js** Gestion des routes
