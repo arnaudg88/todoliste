@@ -12,12 +12,12 @@ MongoDB ([https://www.mongodb.com/]())
     
 ##Installation
 
-1.Il faut installer meteor, sur ce lien [https://www.meteor.com/install]()
+1. Il faut installer meteor, sur ce lien [https://www.meteor.com/install]()
 
-2.Ouvrir une fenêtre de commande dans le dossier du projet et de faire les commandes suivantes :
+2. Ouvrir une fenêtre de commande dans le dossier du projet et de faire les commandes suivantes :
 
-$ meteor npm install
-$ meteor
+> $ meteor npm install
+> $ meteor
 
 Une fois que la fenêtre de commande affiche : 
 
