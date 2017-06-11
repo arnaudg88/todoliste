@@ -1,7 +1,6 @@
 // Fill the DB with example data on startup
 
 import { Meteor } from 'meteor/meteor';
-import { Links } from '../../api/links/links.js';
 import { Notes } from '../../api/notes/notes.js';
 
 Meteor.startup(() => {
@@ -31,7 +30,7 @@ Meteor.startup(() => {
     ];
 
     data.forEach(link => Links.insert(link));*/
-    if(this.userId) {
+    /*if(this.userId) {
         var email = Meteor.user().emails[0].address;
     }else {
         var email = 'truc@machin.com';
@@ -49,5 +48,5 @@ Meteor.startup(() => {
         ];
 
         data.forEach(note => Notes.insert(note));
-    }
+    }*/
 });
