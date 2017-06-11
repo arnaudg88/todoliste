@@ -1,8 +1,8 @@
-#Site web Todo liste
+# Site web Todo liste
 
 Ce projet est un site web qui permet la gestion d'une todo liste comme Evernote (https://evernote.com)
 
-##Outils
+## Outils
 
 Meteor ([https://www.meteor.com/]())
 	C'est un framework de node.js de développement web en javascript
@@ -10,7 +10,7 @@ Meteor ([https://www.meteor.com/]())
 MongoDB ([https://www.mongodb.com/]())
 	C'est un système de stockage de données NoSQL
     
-##Installation
+## Installation
 
 1. Il faut installer meteor, sur ce lien [https://www.meteor.com/install]()
 
