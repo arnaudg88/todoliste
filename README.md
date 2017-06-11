@@ -6,6 +6,8 @@ Ce projet est un site web qui permet la gestion d'une todo liste comme Evernote 
 
 Meteor ([https://www.meteor.com/]())
 	C'est un framework de node.js de développement web en javascript
+
+J'ai choisis meteor, car je voulais apprendre à l'utiliser pour changer de java et php. Il est tout de même complet avec l'utilisation de packages qui facilite grandement le développement d'application web. MongoDb est déjà intégré avec l'installateur de meteor et il existe beaucoup de documentation pour utiliser mongoDB et meteor.
     
 MongoDB ([https://www.mongodb.com/]())
 	C'est un système de stockage de données NoSQL
@@ -13,8 +15,8 @@ MongoDB ([https://www.mongodb.com/]())
 ### Packages
 
 
-- **ian:accounts-ui-bootstrap-3**       1.2.89  Ajoute un formulaire de connection
-- **accounts-password**                 1.3.6  Gestion des mot de passe du formulaire de connection
+- **ian:accounts-ui-bootstrap-3**       1.2.89  Ajoute un formulaire de connexion
+- **accounts-password**                 1.3.6  Gestion des mot de passe du formulaire de connexion
 - **aldeed:collection2-core**           2.0.1  Gestion de la structure des collections mongoDB
 - **momentjs:moment**                   2.18.1  Gestion des dates et heures sur javascript
 - **rajit:bootstrap3-datepicker**       1.6.4  Permet de choisir une date
