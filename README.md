@@ -13,21 +13,14 @@ MongoDB ([https://www.mongodb.com/]())
 ### Packages
 
 
--**ian:accounts-ui-bootstrap-3**       1.2.89  Ajoute un formulaire de connection
-
--**accounts-password**                 1.3.6  Gestion des mot de passe du formulaire de connection
-
--**aldeed:collection2-core**           2.0.1  Gestion de la structure des collections mongoDB
-
--**momentjs:moment**                   2.18.1  Gestion des dates et heures sur javascript
-
--**rajit:bootstrap3-datepicker**       1.6.4  Permet de choisir une date
-
--**twbs:bootstrap**                    3.3.6  bootstrap
-
--**kadira:blaze-layout**               2.3.0  Gestion de l'affichage des templates
-
--**kadira:flow-router**                2.12.1  Gestion des routes du site web
+- **ian:accounts-ui-bootstrap-3**       1.2.89  Ajoute un formulaire de connection
+- **accounts-password**                 1.3.6  Gestion des mot de passe du formulaire de connection
+- **aldeed:collection2-core**           2.0.1  Gestion de la structure des collections mongoDB
+- **momentjs:moment**                   2.18.1  Gestion des dates et heures sur javascript
+- **rajit:bootstrap3-datepicker**       1.6.4  Permet de choisir une date
+- **twbs:bootstrap**                    3.3.6  bootstrap
+- **kadira:blaze-layout**               2.3.0  Gestion de l'affichage des templates
+- **kadira:flow-router**                2.12.1  Gestion des routes du site web
     
 ## Installation
 
@@ -49,10 +42,7 @@ Une fois que la fenêtre de commande affiche :
 
 ## Structure du projet
 
--**imports/ui/pages** Page du site web
-
--**imports/ui/components** Templates
-
--**imports/api/notes** Gestion de la collection des notes
-
--**imports/startup/client/routes.js** Gestion des routes
+- **imports/ui/pages** Page du site web
+- **imports/ui/components** Templates
+- **imports/api/notes** Gestion de la collection des notes
+- **imports/startup/client/routes.js** Gestion des routes
