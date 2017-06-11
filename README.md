@@ -17,6 +17,7 @@ MongoDB ([https://www.mongodb.com/]())
 2. Ouvrir une fenêtre de commande dans le dossier du projet et de faire les commandes suivantes :
 
 > $ meteor npm install
+
 > $ meteor
 
 Une fois que la fenêtre de commande affiche : 
