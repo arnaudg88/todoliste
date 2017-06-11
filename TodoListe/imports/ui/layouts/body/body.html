@@ -1,0 +1,10 @@
+<template name="App_body">
+    {{> header }}
+    <div style="margin-top: 70px">
+        {{#if data}}
+            <input id="data" value={{data}} type="hidden">
+        {{/if}}
+            {{> Template.dynamic template=main}}
+
+    </div>
+</template>

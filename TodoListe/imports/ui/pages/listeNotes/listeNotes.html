@@ -1,0 +1,25 @@
+<template name="listeNotes">
+    {{> search}}
+    <div class="col-md-6">
+        <h2>Liste des notes</h2>
+        <ul>
+        {{#each notes}}
+            {{>note}}
+        {{/each}}
+        </ul>
+    </div>
+</template>
+
+
+<template name="note">
+    <div class="col-mg-6 well">
+        <h3 class="titreNote">{{titre}}</h3>
+        <a class="btn-default btn-pen"><span class="glyphicon glyphicon-pencil"></span></a>
+        <a class="btn-default btn-trash"><span class="glyphicon glyphicon-trash"></span></a>
+        <div>{{content}}</div>
+        {{#each hashtag}}
+            <span>{{this}}</span>
+        {{/each}}
+        <div>{{formatDate createdAt}}</div>
+    </div>
+</template>

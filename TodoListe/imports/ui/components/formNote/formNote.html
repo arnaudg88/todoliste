@@ -1,0 +1,28 @@
+<template name="formNote">
+    {{#if note}}
+        <div id="divTag">
+            <label>Tags :</label>
+             {{#each note.hashtag}}
+                 <span class="well-sm tag">{{this}}</span>
+             {{/each}}
+            <a id="addTag" class="btn btn-default">+</a>
+        </div><br>
+        <form id="addNoteForm">
+            <input id="titreNote" class="well well-sm" type="text" name="titre" value="{{note.titre}}" required/><br>
+            <div id="contentNote" class="well well-lg" contenteditable="true">{{note.content}}</div><br>
+
+            <input class="btn btn-primary" type="submit"/>
+        </form>
+    {{else}}
+        <div id="divTag">
+            <label>Tags :</label>
+            <a id="addTag" class="btn btn-default">+</a>
+        </div><br>
+        <form id="addNoteForm">
+            <input id="titreNote" class="well well-sm" type="text" name="titre" placeholder="Titre" required/><br>
+            <div id="contentNote" class="well well-lg" contenteditable="true">note...</div><br>
+
+            <input class="btn btn-primary" type="submit"/>
+        </form>
+    {{/if}}
+</template>
